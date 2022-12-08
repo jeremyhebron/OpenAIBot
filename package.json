@@ -5,19 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon ./src/index.js",
-    "start": "cross-env NODE_ENV=production node .src/index.js" 
+    "start": "cross-env NODE_ENV=production node .src/index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeremyhebron/open-ai-discord-bot.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeremyhebron/open-ai-discord-bot/issues"
-  },
-  "homepage": "https://github.com/jeremyhebron/open-ai-discord-bot#readme",
+  "bugs": {},
   "type": "module",
   "dependencies": {
     "discord.js": "^14.7.1",

@@ -6,9 +6,8 @@ const slashCommands = {
   getImage: new SlashCommandBuilder()
     .setName("openai")
     .setDescription("Commands for the openai API")
-    .addSubcommand((subcommand) => subcommand
-        .setName("getimage")
-        .setDescription("enter a text prompt to be interpreted into image by openai")
+    .addSubcommand((subcommand) =>
+      subcommand.setName("getimage").setDescription("enter a text prompt")
     ),
 };
 
@@ -16,4 +15,4 @@ const slashCommands = {
 
 //.addStringOption(option =>option.setName('prompt').setDescription('enter text for ai to generate into an image').setRequired(true))
 
-export default slashCommands
+export default slashCommands;
