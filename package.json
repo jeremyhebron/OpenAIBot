@@ -1,0 +1,31 @@
+{
+  "name": "open-ai-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot using the OpenAI API8\r //testing push to main",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./src/index.js",
+    "start": "cross-env NODE_ENV=production node .src/index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyhebron/open-ai-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyhebron/open-ai-discord-bot/issues"
+  },
+  "homepage": "https://github.com/jeremyhebron/open-ai-discord-bot#readme",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
